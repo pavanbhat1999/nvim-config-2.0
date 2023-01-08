@@ -30,13 +30,13 @@ nnoremap<leader>gp :Git push<CR>
 nnoremap<leader>g1 :diffget //2<CR>
 nnoremap<leader>g0 :diffget //0<CR>
 nnoremap<C-a> ggVG
-"easy align commands------------------------------------------------------------
+"easy align commands--------------------------------------------------------------------------------
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
-"-------------------------------------------------------------------------------
-" For better Commenting and documentation of code-------------------------------
+"---------------------------------------------------------------------------------------------------
+" For better Commenting and documentation of code---------------------------------------------------
 nnoremap <leader>- :set ri<cr>100A-<esc>101<bar>d$0:set nori<cr>
 
 
@@ -47,5 +47,5 @@ nnoremap <silent> gr <cmd>lua vim.lsp.buf.references()<CR>
 nnoremap <silent> gi <cmd>lua vim.lsp.buf.implementation()<CR>
 nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>
 nnoremap <silent> <C-k> <cmd>lua vim.lsp.buf.signature_help()<CR>
-nnoremap <silent> [g <cmd>lua vim.lsp.diagnostic.goto_prev()<CR>
-nnoremap <silent> ]g <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
+" nnoremap <silent> [g <cmd>lua vim.lsp.diagnostic.goto_prev()<CR>
+" nnoremap <silent> ]g <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
