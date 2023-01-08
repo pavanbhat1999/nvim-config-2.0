@@ -4,7 +4,7 @@ require('defaults')
 require("color-settings")
 require("key-mappings") -- TODO:Convert all mappings to lua standard--------------------------------
 require("cmp-config")
-require('lsp/python-lsp')
+-- require('lsp/python-lsp')
 require("lsp/bash-lsp")
 require("lsp/lua-lsp")
 require("lua-line")

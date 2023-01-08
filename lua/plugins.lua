@@ -138,6 +138,8 @@ return require('packer').startup(function()
             }
         end
     }
+    -- NOTE: For working lua-langauge server
+    -- use "folke/neodev.nvim"
     -- use { 'AlphaTechnolog/pywal.nvim', as = 'pywal' }
     -- use('xiyaowong/nvim-transparent')
     -- use "Pocco81/TrueZen.nvim"

@@ -14,7 +14,9 @@ cmp.setup({
         ['<CR>'] = cmp.mapping.confirm({
             behavior = cmp.ConfirmBehavior.Replace,
             select = true,
-        })
+        }),
+        ['<C-n>'] = cmp.mapping(cmp.mapping.select_next_item(), { 'i', 'c' }),
+        ['<C-p>'] = cmp.mapping(cmp.mapping.select_prev_item(), { 'i', 'c' })
     },
     sources = {
         { name = 'buffer' }, { name = 'nvim_lua' }, { name = 'nvim_lsp' },
@@ -42,8 +44,8 @@ local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
 -- The following example advertise capabilities to `clangd`.
-require 'lspconfig'.clangd.setup { capabilities = capabilities }
-capabilities.textDocument.completion.completionItem.snippetSupport = true
+-- require 'lspconfig'.clangd.setup { capabilities = capabilities }
+-- capabilities.textDocument.completion.completionItem.snippetSupport = true
 
 require 'lspconfig'.html.setup { capabilities = capabilities }
 -- for icons
