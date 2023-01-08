@@ -13,6 +13,9 @@ require("telescope-settings")
 require("harpoon-settings")
 require("treesitter")
 require("filetree")
+-- require 'lspconfig'.rust_analyzer.setup {}
+-- local pywal = require('pywal')
+-- pywal.setup()
 -- require("efm")
 -- require("null-ls-config")
 -- Need port of auto command from neovim------------------------------------------------------------

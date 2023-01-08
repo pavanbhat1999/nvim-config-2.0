@@ -275,18 +275,28 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/root99/.local/share/nvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
+  },
+  ["which-key.nvim"] = {
+    config = { "\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\0" },
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: vimwiki
-time([[Config for vimwiki]], true)
-try_loadstring("\27LJ\2\nÝ\1\0\0\6\0\n\0\0196\0\0\0009\0\1\0004\1\3\0005\2\a\0006\3\0\0009\3\3\0039\3\4\3'\5\5\0B\3\2\2'\4\6\0&\3\4\3=\3\b\2>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\t\0K\0\1\0\23vimwiki_global_ext\18template_path\1\0\1\tpath\24~/Downloads/vimwiki./site/pack/packer/start/vimwiki/autoload/\tdata\fstdpath\afn\17vimwiki_list\6g\bvim\0", "config", "vimwiki")
-time([[Config for vimwiki]], false)
 -- Config for: todo-comments.nvim
 time([[Config for todo-comments.nvim]], true)
 try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18todo-comments\frequire\0", "config", "todo-comments.nvim")
 time([[Config for todo-comments.nvim]], false)
+-- Config for: which-key.nvim
+time([[Config for which-key.nvim]], true)
+try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\0", "config", "which-key.nvim")
+time([[Config for which-key.nvim]], false)
+-- Config for: vimwiki
+time([[Config for vimwiki]], true)
+try_loadstring("\27LJ\2\nÝ\1\0\0\6\0\n\0\0196\0\0\0009\0\1\0004\1\3\0005\2\a\0006\3\0\0009\3\3\0039\3\4\3'\5\5\0B\3\2\2'\4\6\0&\3\4\3=\3\b\2>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\t\0K\0\1\0\23vimwiki_global_ext\18template_path\1\0\1\tpath\24~/Downloads/vimwiki./site/pack/packer/start/vimwiki/autoload/\tdata\fstdpath\afn\17vimwiki_list\6g\bvim\0", "config", "vimwiki")
+time([[Config for vimwiki]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

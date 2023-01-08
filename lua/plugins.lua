@@ -128,6 +128,17 @@ return require('packer').startup(function()
         },
         tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
+    use {
+        "folke/which-key.nvim",
+        config = function()
+            require("which-key").setup {
+                -- your configuration comes here
+                -- or leave it empty to use the default settings
+                -- refer to the configuration section below
+            }
+        end
+    }
+    -- use { 'AlphaTechnolog/pywal.nvim', as = 'pywal' }
     -- use('xiyaowong/nvim-transparent')
     -- use "Pocco81/TrueZen.nvim"
     -- use 'junegunn/goyo.vim'
