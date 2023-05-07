@@ -2,7 +2,7 @@ set termguicolors
 colorscheme tokyonight-night
 set background=dark
 let g:Hexokinase_highlighters = [ 'backgroundfull' ]
-hi Normal guibg=NONE ctermbg=NONE
+" hi Normal guibg=NONE ctermbg=NONE
 "set signcolumn=number
 hi signcolumn ctermbg=NONE guibg=NONE
 "Git Diff view colors
