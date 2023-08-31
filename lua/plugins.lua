@@ -68,7 +68,7 @@ return require('packer').startup(function()
     -- "use 'vim-airline/vim-airline'
     use 'hoob3rt/lualine.nvim'
     use { 'rrethy/vim-hexokinase', run = 'make hexokinase' } -- Color Display"
-    use 'KabbAmine/vCoolor.vim' -- color picker for vim
+    use 'KabbAmine/vCoolor.vim'                              -- color picker for vim
     -- Fuzzy Finders and Navigation----------------------------------------------------------------------
     use 'nvim-lua/popup.nvim'
     use 'nvim-lua/plenary.nvim'
@@ -126,7 +126,7 @@ return require('packer').startup(function()
         requires = {
             'nvim-tree/nvim-web-devicons', -- optional, for file icons
         },
-        tag = 'nightly' -- optional, updated every week. (see issue #1193)
+        tag = 'nightly'                    -- optional, updated every week. (see issue #1193)
     }
     use {
         "folke/which-key.nvim",
@@ -166,5 +166,4 @@ return require('packer').startup(function()
     --         })
     --     end,
     -- })
-
 end)
