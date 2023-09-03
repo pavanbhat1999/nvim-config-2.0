@@ -2,9 +2,9 @@ vim.g.mapleader = " "
 vim.opt.clipboard = "unnamedplus"
 vim.opt.hlsearch = false
 vim.opt.expandtab = true -- deault is false cant use with single spaces
-vim.opt.tabstop = 4 -- default spaces when tab is pressed
+vim.opt.tabstop = 4      -- default spaces when tab is pressed
 vim.opt.softtabstop = 4  -- backspace behaviour
-vim.opt.shiftwidth = 4  -- moving usinf >> <<
+vim.opt.shiftwidth = 4   -- moving usinf >> <<
 --vim.opt.smarttab = false -- smart tab overrides backspace behaviour
 vim.opt.relativenumber = true
 vim.opt.number = true
@@ -22,6 +22,7 @@ vim.opt.cursorline = true
 vim.opt.mouse = "a"
 vim.opt.hidden = true
 vim.opt.updatetime = 100
+vim.opt.cmdheight = 0
 --for cross os files
 --vim.g.nofixendofline = true
 --vim.api.nvim_command("set nofixendofline")
