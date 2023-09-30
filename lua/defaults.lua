@@ -22,7 +22,7 @@ vim.opt.cursorline = true
 vim.opt.mouse = "a"
 vim.opt.hidden = true
 vim.opt.updatetime = 100
--- vim.opt.cmdheight = 0
+-- vim.opt.cmdheight = 1
 --for cross os files
 --vim.g.nofixendofline = true
 --vim.api.nvim_command("set nofixendofline")
