@@ -7,6 +7,8 @@ nnoremap <leader>h :wincmd h <CR>
 nnoremap <leader>j :wincmd j <CR>
 nnoremap <leader>k :wincmd k <CR>
 nnoremap <leader>l :wincmd l <CR>
+nnoremap <C-Tab> :bnext<CR>
+nnoremap <C-S-Tab> :bprev<CR>
 "nnoremap <leader>f2 :set autochdir <CR>
 "FZF ---------------------------------------------------------------------------
 "nnoremap<C-t> :Files <CR>
@@ -15,7 +17,7 @@ nnoremap <leader>l :wincmd l <CR>
 " Using lua functions-----------------------------------------------------------
 nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files({hidden=true,no_ignore=false})<cr>
 nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
-nnoremap <leader>bb <cmd>lua require('telescope.builtin').buffers()<cr>
+nnoremap <C-b> <cmd>lua require('telescope.builtin').buffers()<cr>
 nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
 nnoremap <leader>fs <cmd>lua require('telescope.builtin').grep_string()<cr>
 nnoremap <leader>bs <cmd>lua require('telescope.builtin').current_buffer_fuzzy_find()<cr>
